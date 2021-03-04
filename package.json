@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "gulp watch"
+    "launch": "gulp watch"
   },
   "name": "another-website",
   "version": "1.0.0",

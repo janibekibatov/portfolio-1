@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    @@include('./includes/_head.html')
+	<title>Javascript exercise</title>
+	<style>
+		.icon {
+			font-family: impact;
+		}
+		.aboutUs {
+			text-decoration: none;
+			font-family: impact;
+			color: black;
+		}
+		.items {
+			text-decoration: none;
+			font-family: impact;
+			color: black;
+		}
+		.contacts {
+			text-decoration: none;
+			font-family: impact;
+			color: black;
+		}
+		.input {
+			text-align: center;
+		}
+	</style>
 </head>
-
 <body>
-
-
-@@include('./includes/_header.html')
-
-
-
-<div class="home-content">
-
-    <h1>Сәлем әлем!</h1>
-
-    <hr>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim id, amet pariatur obcaecati consequuntur voluptatem ea eos perferendis cupiditate rem officiis hic dignissimos odit eius perspiciatis quidem tenetur repellat?</p>
-
-</div>
-
-
-
-@@include('./includes/_footer.html')
-
-
-
-@@include('./includes/_scripts.html')
-
-
-
+	<table width="100%" border="0" cellspacing="20px">
+		<tr>
+			<td class="icon">TENGRI<span style="color:blue;">SHOP</span></td>
+			<td><a class="aboutUs" href="#"><b>Біз туралы</b></a></td>
+			<td><a class="items" href="#"><b>Тауарлар</b></a></td>
+			<td class="input"><input type="text" name="search" placeholder="Іздеу" size="50"></td>
+			<td><a class="contacts" href="#"><b>Контактілер</b></a></td>
+		</tr>
+	</table>
 </body>
 </html>
