@@ -1,40 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Javascript exercise</title>
-	<style>
-		.icon {
-			font-family: impact;
-		}
-		.aboutUs {
-			text-decoration: none;
-			font-family: impact;
-			color: black;
-		}
-		.items {
-			text-decoration: none;
-			font-family: impact;
-			color: black;
-		}
-		.contacts {
-			text-decoration: none;
-			font-family: impact;
-			color: black;
-		}
-		.input {
-			text-align: center;
-		}
-	</style>
+	<title>TENGRISHOP</title>
+	
 </head>
 <body>
-	<table width="100%" border="0" cellspacing="20px">
-		<tr>
-			<td class="icon">TENGRI<span style="color:blue;">SHOP</span></td>
-			<td><a class="aboutUs" href="#"><b>Біз туралы</b></a></td>
-			<td><a class="items" href="#"><b>Тауарлар</b></a></td>
-			<td class="input"><input type="text" name="search" placeholder="Іздеу" size="50"></td>
-			<td><a class="contacts" href="#"><b>Контактілер</b></a></td>
-		</tr>
-	</table>
+	@@include('./includes/_head.html')
+	@@include('./includes/_header.html') 
+	@@include('./includes/_categories.html') 
+	@@include('./includes/_gallery.html') 
+	@@include('./includes/_promo.html') 
+	@@include('./includes/_footer.html') 
+	@@include('./includes/_scripts.html')
 </body>
 </html>

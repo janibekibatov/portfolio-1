@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+	<title>TENGRISHOP</title>
+
+</head>
+
+<body>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +15,76 @@
 
 	<link rel="stylesheet" href="style.css">
 
-</head>
-
-<body>
-
-
 	<header>
 
-		header
+		<style>
+			.icon {
+				font-family: impact;
+			}
+
+			.aboutUs {
+				text-decoration: none;
+				font-family: impact;
+				color: black;
+			}
+
+			.items {
+				text-decoration: none;
+				font-family: impact;
+				color: black;
+			}
+
+			.contacts {
+				text-decoration: none;
+				font-family: impact;
+				color: black;
+			}
+
+			.input {
+				text-align: center;
+			}
+
+		</style>
+		<table width="100%" border="0" cellspacing="20px">
+			<tr>
+				<td class="icon">TENGRI<span style="color:blue;">SHOP</span></td>
+				<td><a class="aboutUs" href="#"><b>Біз туралы</b></a></td>
+				<td><a class="items" href="#"><b>Тауарлар</b></a></td>
+				<td class="input"><input type="text" name="search" placeholder="Іздеу" size="50"></td>
+				<td><a class="contacts" href="#"><b>Контактілер</b></a></td>
+			</tr>
+		</table>
 
 	</header>
 	<section>
-		categories
+		<style>
+			.wrapper {
+				display: flex;
+				background-color: #F0F0F0;
+				justify-content: center;
+			}
+
+			.information {
+
+				padding: 100px;
+			}
+
+			.image {
+				padding-top: 35px;
+			}
+
+		</style>
+		<div class="wrapper">
+			<div class="information">
+				<p> Жаңа Google Pixel 4a.<br>
+					Сүйгенің үшін арнайы сыйлық</p><br>
+				<button style="background-color: blue; color:white; padding:10px;
+            border-radius: 10px; border: none;">Бірінші болып үлгер</button>
+			</div>
+			<div>
+				<img class="image" src="assets/img/google-pixel.png" width="200">
+			</div>
+		</div>
 	</section>
 	<section>
 		gallery
@@ -32,11 +95,7 @@
 	<footer>
 		footer
 	</footer>
-
-
-
 	<script src="js/script.js"></script>
-
 
 
 </body>
