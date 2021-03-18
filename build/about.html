@@ -9,6 +9,7 @@
 	<title>TITLE</title>
 
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 </head>
 
@@ -16,45 +17,64 @@
 
 
 	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Tengri<span style="color: #21a3da">shop</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#categories">Категории</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#gallery">Галерея</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#promo">
+								Акция
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="float: right;">
 
-		<style>
-			.icon {
-				font-family: impact;
-			}
+					</form>
+				</div>
+			</div>
+		</nav>
 
-			.aboutUs {
-				text-decoration: none;
-				font-family: impact;
-				color: black;
-			}
-
-			.items {
-				text-decoration: none;
-				font-family: impact;
-				color: black;
-			}
-
-			.contacts {
-				text-decoration: none;
-				font-family: impact;
-				color: black;
-			}
-
-			.input {
-				text-align: center;
-			}
-
-		</style>
-		<table width="100%" border="0" cellspacing="20px">
-			<tr>
-				<td class="icon">TENGRI<span style="color:blue;">SHOP</span></td>
-				<td><a class="aboutUs" href="#"><b>Біз туралы</b></a></td>
-				<td><a class="items" href="#"><b>Тауарлар</b></a></td>
-				<td class="input"><input type="text" name="search" placeholder="Іздеу" size="50"></td>
-				<td><a class="contacts" href="#"><b>Контактілер</b></a></td>
-			</tr>
-		</table>
-
+		<div id="slider">
+			<ul>
+				<li>
+					<div class="container">
+						<div class="advertising">
+							<p>Жаңа Google Pixel 4a.</p>
+							<p>Сүйгенің үшін арнайы сыйлық.</p>
+							<button class="btnfirst">Бірінші болып үлгер</button>
+						</div>
+						<div>
+							<img class="googlepixel" src="../../assets/img/google-pixel.png" width="200px">
+						</div>
+					</div>
+				</li>
+				<li style="background: #aaa;">SLIDE 2</li>
+				<li>SLIDE 3</li>
+				<li style="background: #aaa;">SLIDE 4</li>
+			</ul>
+		</div>
 	</header>
 
 
@@ -77,6 +97,8 @@
 
 
 
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.js"></script>
 	<script src="js/script.js"></script>
 
 
